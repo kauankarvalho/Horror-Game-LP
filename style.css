@@ -2,9 +2,56 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Inter", sans-serif;
 }
 
 body {
   background: url(./assets/background.png) no-repeat center/cover;
   height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  text-align: center;
+}
+
+#headline h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+}
+
+#headline h2 span {
+  color: #ffc700;
+}
+
+#headline h1 {
+  font-family: "Emilys Candy", cursive;
+  color: #ffc700;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 80.13px;
+  text-transform: uppercase;
+}
+
+#headline p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
 }
