@@ -55,3 +55,28 @@ main {
   font-weight: 400;
   line-height: 24px;
 }
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+#links a {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+#links a:nth-child(1) {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#links a:nth-child(2) {
+  background: #ffc700;
+  padding: 12px 32px;
+  color: black;
+  text-decoration: none;
+}
