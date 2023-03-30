@@ -72,6 +72,7 @@ main {
 
 #links a:nth-child(1) {
   color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s;
 }
 
 #links a:nth-child(2) {
@@ -79,4 +80,13 @@ main {
   padding: 12px 32px;
   color: black;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+#links a:nth-child(1):hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#links a:nth-child(2):hover {
+  transform: scale(1.05);
 }
