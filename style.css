@@ -94,3 +94,25 @@ main {
 #links a:nth-child(2):hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 610px) {
+  :root {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 510px) {
+  :root {
+    font-size: 50%;
+  }
+
+  main {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 355px) {
+  :root {
+    font-size: 47%;
+  }
+}
