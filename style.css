@@ -6,6 +6,10 @@
   font-family: "Inter", sans-serif;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   background: url(./assets/background.png) no-repeat center/cover;
   height: 100vh;
@@ -18,22 +22,22 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 7.2rem;
 }
 
 #headline {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0.4rem;
 
   text-align: center;
 }
 
 #headline h2 {
   color: white;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
-  line-height: 19.36px;
+  line-height: 1.936rem;
 }
 
 #headline h2 span {
@@ -43,30 +47,30 @@ main {
 #headline h1 {
   font-family: "Emilys Candy", cursive;
   color: #ffc700;
-  font-size: 64px;
+  font-size: 6.4rem;
   font-weight: 400;
-  line-height: 80.13px;
+  line-height: 8.013rem;
   text-transform: uppercase;
 }
 
 #headline p {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2.4rem;
 }
 
 #links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 4.8rem;
 }
 
 #links a {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 2.4rem;
   text-transform: uppercase;
 }
 
@@ -77,7 +81,7 @@ main {
 
 #links a:nth-child(2) {
   background: #ffc700;
-  padding: 12px 32px;
+  padding: 1.2rem 3.2rem;
   color: black;
   text-decoration: none;
   transition: all 0.3s;
