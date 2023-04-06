@@ -30,13 +30,14 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## 📖 Aprendizado
 
-- Eu aprendi e implementei conceitos básicos de responsividade;
-- Aprendi a estruturar um arquivo README.md para projetos;
-- Eu implementei uma licença MIT ao meu projeto.
+- Adquiri conhecimentos essenciais de responsividade;
+- Aprendi a incluir um favicon de forma eficiente;
+- Aprimorei minha habilidade em estruturar um arquivo README.md completo e organizado para projetos;
+- Desenvolvi competência para implementar a licença MIT em meus projetos.
 
 ## 💻 Projeto
 
-A Landing Page criada é uma página para divulgação de um jogo de horror.
+A Landing Page criada tem como objetivo promover um jogo de horror.
 
 ## 💡 Tecnologias
 
@@ -44,6 +45,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Git](https://git-scm.com)
 - [Figma](https://www.figma.com)
 - [ICONS8](https://icons8.com)
 
